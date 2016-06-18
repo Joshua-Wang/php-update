@@ -1,0 +1,2178 @@
+D:\joshua\workspace\share\SAVReporter\admin\agentconfig.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:259	sav_closedb(&$conn_id);
+Updated:259	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\admin\agentconfig.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\agentstatus.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:188	<?	sav_closedb(&$conn_id);	?>
+Updated:188	<?	sav_closedb($conn_id);	?>
+D:\joshua\workspace\share\SAVReporter\admin\agentstatus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\agentstatuscsv.php started.
+Line:7	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:32			sav_closedb(&$conn_id);
+Updated:32			sav_closedb($conn_id);
+Line:41			sav_closedb(&$conn_id);
+Updated:41			sav_closedb($conn_id);
+Line:81			sav_closedb(&$conn_id);
+Updated:81			sav_closedb($conn_id);
+Line:114		sav_closedb(&$conn_id);
+Updated:114		sav_closedb($conn_id);
+Line:150	sav_closedb(&$conn_id);
+Updated:150	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\admin\agentstatuscsv.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\notification.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:152	        sav_closedb(&$conn_id);
+Updated:152	        sav_closedb($conn_id);
+Line:167		sav_closedb(&$conn_id);
+Updated:167		sav_closedb($conn_id);
+Line:939	sav_closedb(&$conn_id); ?>
+Updated:939	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\admin\notification.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\notificationhintbox.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:217	<? sav_closedb(&$conn_id); ?>
+Updated:217	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\admin\notificationhintbox.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\notificationpopup.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1356	<? sav_closedb(&$conn_id);?>
+Updated:1356	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\admin\notificationpopup.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\runnow.php started.
+Line:7	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:29	sav_closedb(&$conn_id);
+Updated:29	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\admin\runnow.php finished.
+
+D:\joshua\workspace\share\SAVReporter\admin\upload.php started.
+Line:171	  check_config(&$mindisk, $upload_dir);
+Updated:171	  check_config($mindisk, $upload_dir);
+D:\joshua\workspace\share\SAVReporter\admin\upload.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\ajax.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:100	    $aqueries->getAlerts15(&$query0, &$query1, &$query2, &$query3, $Ack,
+Updated:100	    $aqueries->getAlerts15($query0, $query1, $query2, $query3, $Ack,
+Line:122	sav_closedb(&$conn_id);
+Updated:122	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\alerts\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\alertdetails.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:233	sav_closedb(&$conn_id); ?>
+Updated:233	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\alerts\alertdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-deletefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:47	sav_closedb(&$conn_id);
+Updated:47	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-savefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:30		sav_closedb(&$conn_id);
+Updated:30		sav_closedb($conn_id);
+Line:134	sav_closedb(&$conn_id);
+Updated:134	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-updatefilter.php started.
+Line:7	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:27		sav_closedb(&$conn_id);
+Updated:27		sav_closedb($conn_id);
+Line:111	   sav_closedb(&$conn_id);
+Updated:111	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\alerts\alerts-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\alerts\alerts.php started.
+Line:43	connectnav(&$conn_id);
+Updated:43	connectnav($conn_id);
+Line:217	            $ajaxfilter .= "&$key=$val";
+Updated:217	            $ajaxfilter .= "$key=$val";
+Line:395	    $aqueries->getAlerts16(&$query0, &$query3, $Ack,
+Updated:395	    $aqueries->getAlerts16($query0, $query3, $Ack,
+Line:417	    $aqueries->getAlerts17(&$query2, $Ack,
+Updated:417	    $aqueries->getAlerts17($query2, $Ack,
+D:\joshua\workspace\share\SAVReporter\alerts\alerts.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\ajax.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:135	 sav_closedb(&$conn_id);
+Updated:135	 sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\audit-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:49	sav_closedb(&$conn_id);
+Updated:49	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\audit-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\audit-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:149	sav_closedb(&$conn_id);
+Updated:149	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\audit-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\audit-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:67		sav_closedb(&$conn_id);
+Updated:67		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\audit-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\audit-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:29		sav_closedb(&$conn_id);
+Updated:29		sav_closedb($conn_id);
+Line:124	   sav_closedb(&$conn_id);
+Updated:124	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\audit-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\auditdetails.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:123	sav_closedb(&$conn_id); 
+Updated:123	sav_closedb($conn_id); 
+D:\joshua\workspace\share\SAVReporter\Audit\auditdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\auditlogs.php started.
+Line:14	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:14	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\auditlogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\auditreports.php started.
+Line:14	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:14	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:159	sav_closedb(&$conn_id);
+Updated:159	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\auditreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\export_audit.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:70	sav_closedb(&$conn_id);
+Updated:70	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\export_audit.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\PolicyUsageMap.php started.
+Line:9	connectnav(& $conn_id);
+Updated:9	connectnav($conn_id);
+Line:232	    sav_closedb(& $conn_id);
+Updated:232	    sav_closedb($conn_id);
+Line:376	    sav_closedb(& $conn_id);
+Updated:376	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\PolicyUsageMap.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Audit\results.php started.
+Line:165	sav_closedb(& $conn_id);
+Updated:165	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Audit\results.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\addprocess.php started.
+Line:7	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:70	   $queries->doExclusion("geh_tamper", $policyIds, $processIds, &$msg /* out */, &$msg_type /* out */);
+Updated:70	   $queries->doExclusion("geh_tamper", $policyIds, $processIds, $msg /* out */, $msg_type /* out */);
+Line:313	sav_closedb(&$conn_id);
+Updated:313	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\addprocess.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\agentresults.php started.
+Line:206	sav_closedb(&$conn_id);?>
+Updated:206	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Behavior\agentresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\ajax.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:143	<? sav_closedb(&$conn_id);?>
+Updated:143	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Behavior\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:55	sav_closedb(&$conn_id);
+Updated:55	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:34		sav_closedb(&$conn_id);
+Updated:34		sav_closedb($conn_id);
+Line:191	sav_closedb(&$conn_id);
+Updated:191	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:86		sav_closedb(&$conn_id);
+Updated:86		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:22		sav_closedb(&$conn_id);
+Updated:22		sav_closedb($conn_id);
+Line:167	   sav_closedb(&$conn_id);
+Updated:167	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behavior-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorlogs.php started.
+Line:13	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorlogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorreport1.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:51	connectnav(&$conn_id);
+Updated:51	connectnav($conn_id);
+Line:249	 	sav_closedb(&$conn_id);
+Updated:249	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorreport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorreports.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:163	sav_closedb(&$conn_id);
+Updated:163	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\behaviorreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\details.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:593	<? sav_closedb(&$conn_id); ?>
+Updated:593	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Behavior\details.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\export_behavior.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:211	sav_closedb(&$conn_id);
+Updated:211	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\export_behavior.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\osprotectresults.php started.
+Line:198	sav_closedb(&$conn_id);?>
+Updated:198	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Behavior\osprotectresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\TopTenDevicesBlocked.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:66	connectnav(&$conn_id);
+Updated:66	connectnav($conn_id);
+Line:286	 	sav_closedb(&$conn_id);
+Updated:286	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\TopTenDevicesBlocked.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Behavior\TopTenTargetsBlocked.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:57	connectnav(&$conn_id);
+Updated:57	connectnav($conn_id);
+Line:282	sav_closedb(&$conn_id);
+Updated:282	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Behavior\TopTenTargetsBlocked.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\command-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:47	sav_closedb(&$conn_id);
+Updated:47	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\command\command-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\command-loadfilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\command\command-loadfilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\command-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:32		sav_closedb(&$conn_id);
+Updated:32		sav_closedb($conn_id);
+Line:131	sav_closedb(&$conn_id);
+Updated:131	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\command\command-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\command-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:84	   sav_closedb(&$conn_id);
+Updated:84	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\command\command-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\commandlog.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:483	    $queries->getMainCommandQuery($filCommandType, $filter, $ClientType, &$query1,
+Updated:483	    $queries->getMainCommandQuery($filCommandType, $filter, $ClientType, $query1,
+Line:484	    &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start, $commandId);
+Updated:484	    $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start, $commandId);
+Line:553	sav_closedb(&$conn_id);
+Updated:553	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\command\commandlog.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\commandstatus.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:533	    $query=$queries->getCommandStatusQueries($filter, &$query1, &$query2, $tempsortorder, $sortdir);
+Updated:533	    $query=$queries->getCommandStatusQueries($filter, $query1, $query2, $tempsortorder, $sortdir);
+D:\joshua\workspace\share\SAVReporter\command\commandstatus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\command\runcommand.php started.
+Line:13	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:20		sav_closedb(&$conn_id);
+Updated:20		sav_closedb($conn_id);
+Line:197					$responsecode = prepareCommand(&$myCommandID, $commandName, $hardwareKeyArr, $payload);
+Updated:197					$responsecode = prepareCommand($myCommandID, $commandName, $hardwareKeyArr, $payload);
+Line:227	    connectnav(&$conn_id);
+Updated:227	    connectnav($conn_id);
+Line:251				$responsecode = prepareCommand(&$myCommandID, $commandName, $list, $payload, $commandDesc, $myCommandID);
+Updated:251				$responsecode = prepareCommand($myCommandID, $commandName, $list, $payload, $commandDesc, $myCommandID);
+Line:271	    sav_closedb(&$conn_id);
+Updated:271	    sav_closedb($conn_id);
+Line:283			$responsecode = prepareCommand(&$myCommandID, $commandName, $hardwareKeyArr, "", "", "");
+Updated:283			$responsecode = prepareCommand($myCommandID, $commandName, $hardwareKeyArr, "", "", "");
+Line:309			$responsecode = prepareCommand(&$myCommandID, $commandName, $hardwareKeyArr, "", "", "");
+Updated:309			$responsecode = prepareCommand($myCommandID, $commandName, $hardwareKeyArr, "", "", "");
+Line:336			$responsecode = prepareCommand(&$myCommandID, $commandName, $hardwareKeyArr, "");
+Updated:336			$responsecode = prepareCommand($myCommandID, $commandName, $hardwareKeyArr, "");
+D:\joshua\workspace\share\SAVReporter\command\runcommand.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\auth.php started.
+Line:41	            connectnav(&$conn_id);
+Updated:41	            connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\auth.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\dberror.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\dberror.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\imageerror.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\imageerror.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\include-deletefilter.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:42	sav_closedb(&$conn_id);
+Updated:42	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\include-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\include-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:181	sav_closedb(&$conn_id);
+Updated:181	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\include-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\include-updatefilter.php started.
+Line:6	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:6	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:24		sav_closedb(&$conn_id);
+Updated:24		sav_closedb($conn_id);
+Line:169	    sav_closedb(&$conn_id);
+Updated:169	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\include-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Common\inputerror.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Common\inputerror.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\ajax.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:95	        $queries->getHostComplianceQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:95	        $queries->getHostComplianceQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:96	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:96	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:99	        $queries->getEnforcerServerQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:99	        $queries->getEnforcerServerQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:100	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:100	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:102	        $queries->getEnforcerClientQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:102	        $queries->getEnforcerClientQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:103	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:103	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:105	        $queries->getEnforcerTrafficQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:105	        $queries->getEnforcerTrafficQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:106	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:106	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:134	<? sav_closedb(&$conn_id);?>
+Updated:134	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Compliance\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\clientresults.php started.
+Line:192	sav_closedb(&$conn_id);?>
+Updated:192	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Compliance\clientresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:48	sav_closedb(&$conn_id);
+Updated:48	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:209	sav_closedb(&$conn_id);
+Updated:209	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-setdefaults.php started.
+Line:8	connectnav(&$conn_id);
+Updated:8	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-setdefaults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:67		sav_closedb(&$conn_id);
+Updated:67		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-TSreports.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:355	 	sav_closedb(&$conn_id);
+Updated:355	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-TSreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-TSreports2.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:334	 	sav_closedb(&$conn_id);
+Updated:334	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-TSreports2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:33		sav_closedb(&$conn_id);
+Updated:33		sav_closedb($conn_id);
+Line:146	   sav_closedb(&$conn_id);
+Updated:146	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliance-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancedetails.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:122				connectnav_raw(&$raw);
+Updated:122				connectnav_raw($raw);
+Line:128				close_result_raw(&$result);
+Updated:128				close_result_raw($result);
+Line:135				close_result_raw(&$result);
+Updated:135				close_result_raw($result);
+Line:136				close_raw(&$raw);
+Updated:136				close_raw($raw);
+Line:502	sav_closedb(&$conn_id); ?>
+Updated:502	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancedetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancelogs.php started.
+Line:15	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:15	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:471	        $queries->getHostComplianceQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:471	        $queries->getHostComplianceQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:472	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:472	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:480	        $queries->getEnforcerServerQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:480	        $queries->getEnforcerServerQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:481	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:481	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:488	        $queries->getEnforcerClientQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:488	        $queries->getEnforcerClientQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:489	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:489	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:497	        $queries->getEnforcerTrafficQueries($filComplianceType, $filter, $ClientType, &$query1,
+Updated:497	        $queries->getEnforcerTrafficQueries($filComplianceType, $filter, $ClientType, $query1,
+Line:498	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:498	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancelogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereport1.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:362	 	sav_closedb(&$conn_id); ?>
+Updated:362	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereport2.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:325	   sav_closedb(&$conn_id);
+Updated:325	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereport2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereports.php started.
+Line:13	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:184	sav_closedb(&$conn_id);
+Updated:184	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\compliancereports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureConnections.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureConnections.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureDetails.php started.
+Line:12	connectnav(& $conn_id);
+Updated:12	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureDetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureSummary.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:64	connectnav(&$conn_id);
+Updated:64	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\ControlFailureSummary.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\export-compliance.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:400	sav_closedb(&$conn_id);
+Updated:400	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Compliance\export-compliance.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\hostresults.php started.
+Line:208	sav_closedb(&$conn_id);?>
+Updated:208	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Compliance\hostresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\serverresults.php started.
+Line:171	sav_closedb(&$conn_id);?>
+Updated:171	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Compliance\serverresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Compliance\trafficresults.php started.
+Line:191	sav_closedb(&$conn_id);?>
+Updated:191	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Compliance\trafficresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\ajax.php started.
+Line:10	include("Include/common/connectdb.php");connectnav(&$conn_id);
+Updated:10	include("Include/common/connectdb.php");connectnav($conn_id);
+Line:548	<? sav_closedb(&$conn_id);?>
+Updated:548	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\dashboard\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\chartpicker.php started.
+Line:12	include("Include/common/connectdb.php");connectnav(&$conn_id);
+Updated:12	include("Include/common/connectdb.php");connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\dashboard\chartpicker.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\endpoint_status_drilldown.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:479	<? sav_closedb(&$conn_id);?>
+Updated:479	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\dashboard\endpoint_status_drilldown.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\homepage.php started.
+Line:68		connectnav(&$conn_id);
+Updated:68		connectnav($conn_id);
+Line:425	sav_closedb(&$conn_id);
+Updated:425	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\dashboard\homepage.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\preferences.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1036	sav_closedb(&$conn_id);
+Updated:1036	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\dashboard\preferences.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\securitystatus.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:2091	<? sav_closedb(&$conn_id);?>
+Updated:2091	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\dashboard\securitystatus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\dashboard\system_updates_drilldown.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:109	<? sav_closedb(&$conn_id);?>
+Updated:109	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\dashboard\system_updates_drilldown.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\adddirectory.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:97	   $queries->doExclusion("geh_dir", $policyIds, $dirIds, "", &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:97	   $queries->doExclusion("geh_dir", $policyIds, $dirIds, "", $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:460	sav_closedb(&$conn_id);
+Updated:460	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\adddirectory.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\adddomain.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:83	   $queries->doExclusion("geh_domain", $policyIds, $domainIds, "", &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:83	   $queries->doExclusion("geh_domain", $policyIds, $domainIds, "", $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:497	sav_closedb(&$conn_id);
+Updated:497	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\adddomain.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\addextension.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:86	   $queries->doExclusion("geh_ext", $policyIds, $extIds, "", &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:86	   $queries->doExclusion("geh_ext", $policyIds, $extIds, "", $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:421	sav_closedb(&$conn_id);
+Updated:421	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\addextension.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\addfile.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:87	   $queries->doExclusion("geh_file", $policyIds, $fileIds, "", &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:87	   $queries->doExclusion("geh_file", $policyIds, $fileIds, "", $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:469	sav_closedb(&$conn_id);
+Updated:469	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\addfile.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\addprocess.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:105	   $queries->doExclusion($reportAction, $policyIds, $processIds, $responseType, &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:105	   $queries->doExclusion($reportAction, $policyIds, $processIds, $responseType, $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:517	sav_closedb(&$conn_id);
+Updated:517	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\addprocess.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\addrisk.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:79	   $queries->doExclusion("geh_risk", $policyIds, $riskIds, $responseType, &$msg /* out */, &$msg_type /* out */,$policyName,$clientGroupList);
+Updated:79	   $queries->doExclusion("geh_risk", $policyIds, $riskIds, $responseType, $msg /* out */, $msg_type /* out */,$policyName,$clientGroupList);
+Line:475	<?  sav_closedb(&$conn_id); ?>
+Updated:475	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\events\addrisk.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\ajax.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:132	    //$equeries->getEventLogQuery($sqlfilter[$dbsys], $sortorder, $sortdir, $portion, $limit, &$query1, &$query2, &$query3);
+Updated:132	    //$equeries->getEventLogQuery($sqlfilter[$dbsys], $sortorder, $sortdir, $portion, $limit, $query1, $query2, $query3);
+Line:158	<? sav_closedb(&$conn_id);?>
+Updated:158	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\events\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\del_quarantine.php started.
+Line:7	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:238	sav_closedb(&$conn_id);
+Updated:238	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\del_quarantine.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\eventdetails.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:403	 sav_closedb(&$conn_id); ?>
+Updated:403	 sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\events\eventdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\events.php started.
+Line:13	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\export_events.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:275	sav_closedb(&$conn_id);
+Updated:275	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\export_events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\proactiveajax.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\proactiveajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\proactivedetails.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:437	 sav_closedb(&$conn_id); ?>
+Updated:437	 sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\events\proactivedetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\proactivelogs.php started.
+Line:13	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1036	sav_closedb(&$conn_id);
+Updated:1036	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\proactivelogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\risklogajax.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:189	<? sav_closedb(&$conn_id);?>
+Updated:189	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\events\risklogajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\events\viewAppliedFilter.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\events\viewAppliedFilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\ajax.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:153	<? sav_closedb(&$conn_id);?>
+Updated:153	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Firewall\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\attackresults.php started.
+Line:228	sav_closedb(&$conn_id);?>
+Updated:228	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Firewall\attackresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\export_firewall.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:235	sav_closedb(&$conn_id);
+Updated:235	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\export_firewall.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:45	sav_closedb(&$conn_id);
+Updated:45	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:197	sav_closedb(&$conn_id);
+Updated:197	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:89		sav_closedb(&$conn_id);
+Updated:89		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:172	   sav_closedb(&$conn_id);
+Updated:172	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\firewall-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport1.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:53	connectnav(&$conn_id);
+Updated:53	connectnav($conn_id);
+Line:159	 	sav_closedb(&$conn_id); ?>
+Updated:159	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport2.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:54	connectnav(&$conn_id);
+Updated:54	connectnav($conn_id);
+Line:452	<?  sav_closedb(&$conn_id); ?>
+Updated:452	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport3.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:56	connectnav(&$conn_id);
+Updated:56	connectnav($conn_id);
+Line:485	<?  sav_closedb(&$conn_id); ?>
+Updated:485	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport3.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport4.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:54	connectnav(&$conn_id);
+Updated:54	connectnav($conn_id);
+Line:468	<?  sav_closedb(&$conn_id); ?>
+Updated:468	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport4.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport5.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:50	connectnav(&$conn_id);
+Updated:50	connectnav($conn_id);
+Line:112	 	sav_closedb(&$conn_id); ?>
+Updated:112	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport5.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport5_guts.php started.
+Line:9	require_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport5_guts.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport6.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:41	connectnav(&$conn_id);
+Updated:41	connectnav($conn_id);
+Line:263	<?	sav_closedb(&$conn_id); ?>
+Updated:263	<?	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\firewallreport6.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\fwdetails.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:318	        connectnav_raw(&$raw);
+Updated:318	        connectnav_raw($raw);
+Line:324	        close_result_raw(&$result);
+Updated:324	        close_result_raw($result);
+Line:325	        close_raw(&$raw);
+Updated:325	        close_raw($raw);
+Line:842	sav_closedb(&$conn_id); ?>
+Updated:842	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Firewall\fwdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\fwlogs.php started.
+Line:13	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\fwlogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\fwreports.php started.
+Line:15	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:15	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:234	sav_closedb(&$conn_id);
+Updated:234	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\fwreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\packetresults.php started.
+Line:186	sav_closedb(&$conn_id);?>
+Updated:186	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Firewall\packetresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\response_events.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1112	sav_closedb(&$conn_id);
+Updated:1112	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Firewall\response_events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Firewall\trafficresults.php started.
+Line:194	sav_closedb(&$conn_id);?>
+Updated:194	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Firewall\trafficresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\alerts\alertresults.php started.
+Line:153	sav_closedb(&$conn_id);?>
+Updated:153	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\alerts\alertresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\audit\getAuditFilterTable.php started.
+Line:8	connectnav(&$conn_id);
+Updated:8	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\audit\getAuditFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\behavior\BehaviorQueries.php started.
+Line:91			   sendToReportAction($report_action, $policyIds, $logItems, "", &$msg, &$msg_type);
+Updated:91			   sendToReportAction($report_action, $policyIds, $logItems, "", $msg, $msg_type);
+D:\joshua\workspace\share\SAVReporter\include\behavior\BehaviorQueries.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\behavior\getBehaviorFilterTable.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:189	<? sav_closedb(&$conn_id);?>
+Updated:189	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\behavior\getBehaviorFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ado.php started.
+Line:493	                      doSubstitutionSybaseSpecial(&$query, $i_values);
+Updated:493	                      doSubstitutionSybaseSpecial($query, $i_values);
+Line:495	                      doSubstitutionSybaseSpecial(&$query, $u_values);
+Updated:495	                      doSubstitutionSybaseSpecial($query, $u_values);
+Line:497	                      doSubstitutionSybaseSpecial(&$query, $s_values);
+Updated:497	                      doSubstitutionSybaseSpecial($query, $s_values);
+Line:509	                      doSubstitutionMSSQL(&$query, $i_values);
+Updated:509	                      doSubstitutionMSSQL($query, $i_values);
+Line:511	                      doSubstitutionMSSQL(&$query, $u_values);
+Updated:511	                      doSubstitutionMSSQL($query, $u_values);
+Line:513	                      doSubstitutionMSSQL(&$query, $s_values);
+Updated:513	                      doSubstitutionMSSQL($query, $s_values);
+D:\joshua\workspace\share\SAVReporter\include\common\ado.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\connectdb.php started.
+Line:52	                    ado_connect(&$conn_id, $ODBCDSN, $dbuser, $dpwd, $ConnectionTimeout, $CommandTimeout, $dbport, $dbserver,$isWinAuth);
+Updated:52	                    ado_connect($conn_id, $ODBCDSN, $dbuser, $dpwd, $ConnectionTimeout, $CommandTimeout, $dbport, $dbserver,$isWinAuth);
+Line:92	        		connect_mssql(&$conn_id, $dbserver . "," . $dbport, Array ("Database"=>$navdb, "UID"=>$dbuser, "PWD"=>$dpwd, 
+Updated:92	        		connect_mssql($conn_id, $dbserver . "," . $dbport, Array ("Database"=>$navdb, "UID"=>$dbuser, "PWD"=>$dpwd, 
+Line:95	            	connect_raw(&$conn_id, $ODBCDSN, $dbuser, $dpwd, $ConnectionTimeout, $CommandTimeout);
+Updated:95	            	connect_raw($conn_id, $ODBCDSN, $dbuser, $dpwd, $ConnectionTimeout, $CommandTimeout);
+Line:289	          ado_close(&$conn_id);
+Updated:289	          ado_close($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\common\connectdb.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\boolean.php started.
+Line:27	     * @param & $value 
+Updated:27	     * @param $value 
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\boolean.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\color.php started.
+Line:27	     * @param & $value 
+Updated:27	     * @param $value 
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\color.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\integer.php started.
+Line:27	     * @param & $value 
+Updated:27	     * @param $value 
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\integer.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\string.php started.
+Line:27	     * @param & $value 
+Updated:27	     * @param $value 
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\datasets\property\string.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\interfaces\element.php started.
+Line:36	 * - $padding & $margin defne the distance of the border from inner elements /
+Updated:36	 * - $padding $margin defne the distance of the border from inner elements /
+Line:38	 * - $borderWidth & $border define the style of the border used around the
+Updated:38	 * - $borderWidth $border define the style of the border used around the
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\interfaces\element.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\options\gd_driver.php started.
+Line:99	                if ( imagetypes() & $propertyValue )
+Updated:99	                if ( imagetypes() $propertyValue )
+D:\joshua\workspace\share\SAVReporter\include\common\ezcomponents\Graph\src\options\gd_driver.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\include-filtertable.php started.
+Line:528	<? sav_closedb(&$conn_id);?>
+Updated:528	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\common\include-filtertable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\common\Report.php started.
+Line:357		    connectnav_raw(&$raw);
+Updated:357		    connectnav_raw($raw);
+Line:363		    close_result_raw(&$result);
+Updated:363		    close_result_raw($result);
+Line:364		    close_raw(&$raw);
+Updated:364		    close_raw($raw);
+D:\joshua\workspace\share\SAVReporter\include\common\Report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\compliance\getComplianceFilterTable.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:82	<? sav_closedb(&$conn_id);?>
+Updated:82	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\compliance\getComplianceFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\dashboard\getVirusDefs.php started.
+Line:19	        getProxy(&$proxyServer, &$proxyPort, &$proxyUser, &$proxyAuth);
+Updated:19	        getProxy($proxyServer, $proxyPort, $proxyUser, $proxyAuth);
+D:\joshua\workspace\share\SAVReporter\include\dashboard\getVirusDefs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\EventQueries.php started.
+Line:651	    		   sendToReportAction($report_action, $policyIds, $logItems, $responseType, &$msg, &$msg_type,$policyName,$clientGroupList);
+Updated:651	    		   sendToReportAction($report_action, $policyIds, $logItems, $responseType, $msg, $msg_type,$policyName,$clientGroupList);
+Line:659		   	 	sendToReportAction($report_action, $policyIds, $logItems, $responseType, &$msg, &$msg_type,"",$clientGroupList);
+Updated:659		   	 	sendToReportAction($report_action, $policyIds, $logItems, $responseType, $msg, $msg_type,"",$clientGroupList);
+D:\joshua\workspace\share\SAVReporter\include\events\EventQueries.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresults.php started.
+Line:416	sav_closedb(&$conn_id);?>
+Updated:416	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbyapp.php started.
+Line:491	<? sav_closedb(&$conn_id);?>
+Updated:491	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbyapp.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbysingleapp.php started.
+Line:369	<? sav_closedb(&$conn_id);?>
+Updated:369	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbysingleapp.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbysinglewebdomain.php started.
+Line:360	<? sav_closedb(&$conn_id);?>
+Updated:360	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbysinglewebdomain.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbyweb.php started.
+Line:493	<? sav_closedb(&$conn_id);?>
+Updated:493	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\eventsresultsbyweb.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresults.php started.
+Line:408	sav_closedb(&$conn_id);?>
+Updated:408	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbyapplication.php started.
+Line:516	<? sav_closedb(&$conn_id);?>
+Updated:516	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbyapplication.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbysingleapplication.php started.
+Line:366	<? sav_closedb(&$conn_id);?>
+Updated:366	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbysingleapplication.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbysinglewebdomain.php started.
+Line:349	<? sav_closedb(&$conn_id);?>
+Updated:349	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbysinglewebdomain.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbywebdomain.php started.
+Line:491	<? sav_closedb(&$conn_id);?>
+Updated:491	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\events\proactiveresultsbywebdomain.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\firewall\getFirewallFilterTable.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:76	<? sav_closedb(&$conn_id);?>
+Updated:76	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\firewall\getFirewallFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\inventory\getInventoryFilterTable.php started.
+Line:8	connectnav(&$conn_id);
+Updated:8	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\inventory\getInventoryFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\monitors\av_risk_table.php started.
+Line:7	//require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	//require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:43	connectnav(&$conn_id);
+Updated:43	connectnav($conn_id);
+Line:73	sav_closedb(&$conn_id);
+Updated:73	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\monitors\av_risk_table.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\monitors\include_newvirus.php started.
+Line:93	        $query11 = $queries->get_new_risks_query($timebase, $filterDateFrom, $filterTimeFrom, $filterDateTo, $filterTimeTo, $sqlfilter_5150[$dbsys], &$queryCount, $top);	
+Updated:93	        $query11 = $queries->get_new_risks_query($timebase, $filterDateFrom, $filterTimeFrom, $filterDateTo, $filterTimeTo, $sqlfilter_5150[$dbsys], $queryCount, $top);	
+D:\joshua\workspace\share\SAVReporter\include\monitors\include_newvirus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\reports\include_correlation.php started.
+Line:86	            getQuery($x_axis, &$x_field, &$x_group, &$joins1, &$x_title_name);
+Updated:86	            getQuery($x_axis, $x_field, $x_group, $joins1, $x_title_name);
+Line:87	            getQuery($y_axis, &$y_field, &$y_group, &$joins2, &$y_title_name);
+Updated:87	            getQuery($y_axis, $y_field, $y_group, $joins2, $y_title_name);
+D:\joshua\workspace\share\SAVReporter\include\reports\include_correlation.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\reports\include_newvirus.php started.
+Line:128	           $filterDateTo, $filterTimeTo, $sqlQueryfilter, &$queryCount, 0);
+Updated:128	           $filterDateTo, $filterTimeTo, $sqlQueryfilter, $queryCount, 0);
+D:\joshua\workspace\share\SAVReporter\include\reports\include_newvirus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\resources\datetimejs.php started.
+Line:13	connectnav(&$conn_id);
+Updated:13	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\resources\datetimejs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\scans\results.php started.
+Line:198	sav_closedb(&$conn_id);?>
+Updated:198	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\scans\results.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\Svastatus\svaresults.php started.
+Line:82	<?sav_closedb(&$conn_id);?>
+Updated:82	<?sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\Svastatus\svaresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\system\getSystemFilterTable.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:149	<? sav_closedb(&$conn_id);?>
+Updated:149	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\include\system\getSystemFilterTable.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\util\exportutil.php started.
+Line:167	        sav_closedb(& $conn_id);
+Updated:167	        sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\include\util\exportutil.php finished.
+
+D:\joshua\workspace\share\SAVReporter\include\util\UtilClass.php started.
+Line:265				$ajaxfilter .= "&$key=$val";
+Updated:265				$ajaxfilter .= "$key=$val";
+D:\joshua\workspace\share\SAVReporter\include\util\UtilClass.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\ajax.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\client_inventory_detail_report.php started.
+Line:12	connectnav(&$conn_id);
+Updated:12	connectnav($conn_id);
+Line:301	sav_closedb(&$conn_id);
+Updated:301	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\client_inventory_detail_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\client_migration.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:309	 	sav_closedb(&$conn_id); ?>
+Updated:309	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\inventory\client_migration.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\deployment_report.php started.
+Line:12	connectnav(&$conn_id);
+Updated:12	connectnav($conn_id);
+Line:174	retriveDeploymentData(&$pendingSubQueryResults, &$result, 1);
+Updated:174	retriveDeploymentData($pendingSubQueryResults, $result, 1);
+Line:180	retriveDeploymentData(&$successfulSubQueryResults, &$result);
+Updated:180	retriveDeploymentData($successfulSubQueryResults, $result);
+Line:185	retriveDeploymentData(&$rollbackSubQueryResults, &$result);
+Updated:185	retriveDeploymentData($rollbackSubQueryResults, $result);
+Line:190	retriveDeploymentData(&$incompatibleOSSubQueryResults, &$result);
+Updated:190	retriveDeploymentData($incompatibleOSSubQueryResults, $result);
+Line:195	retriveDeploymentData(&$installCancelledSubQueryResults, &$result);
+Updated:195	retriveDeploymentData($installCancelledSubQueryResults, $result);
+Line:201	retriveDeploymentData(&$errorSubQueryResults, &$result);
+Updated:201	retriveDeploymentData($errorSubQueryResults, $result);
+Line:348	sav_closedb(&$conn_id);
+Updated:348	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\deployment_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\export_inventory.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:350	  sav_closedb(&$conn_id);
+Updated:350	  sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\export_inventory.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\history.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:256	sav_closedb(&$conn_id);
+Updated:256	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\history.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\historyconfig.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:121		sav_closedb(&$conn_id);
+Updated:121		sav_closedb($conn_id);
+Line:733	<? sav_closedb(&$conn_id); ?>
+Updated:733	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\inventory\historyconfig.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:47	sav_closedb(&$conn_id);
+Updated:47	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:29		sav_closedb(&$conn_id);
+Updated:29		sav_closedb($conn_id);
+Line:215	sav_closedb(&$conn_id);
+Updated:215	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:80		sav_closedb(&$conn_id);
+Updated:80		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:30		sav_closedb(&$conn_id);
+Updated:30		sav_closedb($conn_id);
+Line:182	   sav_closedb(&$conn_id);
+Updated:182	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventory-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventorydetails.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1141	sav_closedb(&$conn_id);?>
+Updated:1141	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\inventory\inventorydetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventorylist.php started.
+Line:13	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:13	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventorylist.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport1.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:1258	 	sav_closedb(&$conn_id);
+Updated:1258	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport2.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:422	sav_closedb(&$conn_id);
+Updated:422	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport3.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:549	 	sav_closedb(&$conn_id); 
+Updated:549	 	sav_closedb($conn_id); 
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport3.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport4.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:254	          sav_closedb(&$conn_id);
+Updated:254	          sav_closedb($conn_id);
+Line:528	   sav_closedb(&$conn_id);
+Updated:528	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport4.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport5.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:683	sav_closedb(&$conn_id);
+Updated:683	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport5.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport6.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:907	 	sav_closedb(&$conn_id);
+Updated:907	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport6.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport7.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:220	 	sav_closedb(&$conn_id); ?>
+Updated:220	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport7.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport8.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:135	        sav_closedb(&$conn_id);
+Updated:135	        sav_closedb($conn_id);
+Line:373	   sav_closedb(&$conn_id);
+Updated:373	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreport8.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreports.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:240	sav_closedb(&$conn_id);
+Updated:240	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\inventoryreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\license-details.php started.
+Line:11	connectnav(&$conn_id);
+Updated:11	connectnav($conn_id);
+Line:141	sav_closedb(&$conn_id);
+Updated:141	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\license-details.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\license-expire-notification.php started.
+Line:11	connectnav(&$conn_id);
+Updated:11	connectnav($conn_id);
+Line:153	sav_closedb(&$conn_id);
+Updated:153	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\license-expire-notification.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\license_status_report.php started.
+Line:13	connectnav(&$conn_id);
+Updated:13	connectnav($conn_id);
+Line:169	sav_closedb(&$conn_id);
+Updated:169	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\license_status_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\over-deployed-notification.php started.
+Line:11	connectnav(&$conn_id);
+Updated:11	connectnav($conn_id);
+Line:147	sav_closedb(&$conn_id);
+Updated:147	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\over-deployed-notification.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\reboot_preferences.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:656	sav_closedb(&$conn_id);
+Updated:656	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\reboot_preferences.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\response_events.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:262	sav_closedb(&$conn_id); ?>
+Updated:262	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\inventory\response_events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\results.php started.
+Line:431	sav_closedb(& $conn_id);
+Updated:431	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\results.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\threatdetails.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\threatdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\inventory\upgrade-license-expire-notification.php started.
+Line:11	connectnav(&$conn_id);
+Updated:11	connectnav($conn_id);
+Line:136	sav_closedb(&$conn_id);
+Updated:136	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\inventory\upgrade-license-expire-notification.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Login\curl_funcs.php started.
+Line:472	   connectnav(&$conn_id);
+Updated:472	   connectnav($conn_id);
+Line:489	   test_getNextUSN(&$conn_id,$adminGUID);
+Updated:489	   test_getNextUSN($conn_id,$adminGUID);
+Line:493	   sav_closedb(&$conn_id);
+Updated:493	   sav_closedb($conn_id);
+Line:547	   connectnav(&$conn_id);
+Updated:547	   connectnav($conn_id);
+Line:554	   sav_closedb(&$conn_id);
+Updated:554	   sav_closedb($conn_id);
+Line:561	   connectnav(&$conn_id);
+Updated:561	   connectnav($conn_id);
+Line:566	   sav_closedb(&$conn_id);
+Updated:566	   sav_closedb($conn_id);
+Line:631	   connectnav(&$conn_id);
+Updated:631	   connectnav($conn_id);
+Line:638	   sav_closedb(&$conn_id);
+Updated:638	   sav_closedb($conn_id);
+Line:734	    sav_closedb(&$conn_id);
+Updated:734	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Login\curl_funcs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Login\Logout.php started.
+Line:28	require_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:28	require_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:36	sav_closedb(&$conn_id);
+Updated:36	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Login\Logout.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Login\pwdchange.php started.
+Line:16	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:16	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Login\pwdchange.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\ajax.php started.
+Line:8	include_once("Include/common/connectdb.php");connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php");connectnav($conn_id);
+Line:297	<? sav_closedb(&$conn_id);?>
+Updated:297	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Monitors\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\av_new_risks.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\av_new_risks.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_computer.php started.
+Line:7	//require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	//require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:42	connectnav(&$conn_id);
+Updated:42	connectnav($conn_id);
+Line:56	sav_closedb(&$conn_id);
+Updated:56	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_computer.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_group.php started.
+Line:7	//require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	//require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:42	connectnav(&$conn_id);
+Updated:42	connectnav($conn_id);
+Line:59	sav_closedb(&$conn_id);
+Updated:59	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_group.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_source.php started.
+Line:7	//require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	//require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:45	connectnav(&$conn_id);
+Updated:45	connectnav($conn_id);
+Line:60	sav_closedb(&$conn_id);
+Updated:60	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_piechart_source.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_vir_by_machine.php started.
+Line:9	include_once("Include/common/connectdb.php");	connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php");	connectnav($conn_id);
+Line:198	sav_closedb(&$conn_id);
+Updated:198	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\av_rep_vir_by_machine.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\compliance_ControlFailureDetails.php started.
+Line:10	//require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	//require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\compliance_ControlFailureDetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\fw_charts.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:401	sav_closedb(&$conn_id);
+Updated:401	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\fw_charts.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_av.php started.
+Line:44		connectnav(&$conn_id);
+Updated:44		connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_av.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_compliance.php started.
+Line:36	connectnav(&$conn_id);
+Updated:36	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_compliance.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_firewall.php started.
+Line:13	    include("Include/common/connectdb.php");connectnav(&$conn_id);
+Updated:13	    include("Include/common/connectdb.php");connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_firewall.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_sitestatus.php started.
+Line:37	 	connectnav(&$conn_id);
+Updated:37	 	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Monitors\monitor_sitestatus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\action_summary_infected.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:944	<? sav_closedb(&$conn_id); ?>
+Updated:944	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\action_summary_infected.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\computer_details.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:119	<? sav_closedb(&$conn_id); ?>
+Updated:119	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\computer_details.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\daily_report.php started.
+Line:11	connectnav(&$conn_id);
+Updated:11	connectnav($conn_id);
+Line:1266	  sav_closedb(&$conn_id);
+Updated:1266	  sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\daily_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\filterfinder.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\filterfinder.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\filterupdater.php started.
+Line:7	require("Include/Common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/Common/connectdb.php"); connectnav($conn_id);
+Line:31	sav_closedb(&$conn_id);
+Updated:31	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\filterupdater.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\FullReport.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:282	sav_closedb(&$conn_id);
+Updated:282	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\FullReport.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\new_risks_report.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:92	  sav_closedb(&$conn_id); ?> </p>
+Updated:92	  sav_closedb($conn_id); ?> </p>
+D:\joshua\workspace\share\SAVReporter\reports\new_risks_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\proactive_bar.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:367	sav_closedb(&$conn_id);
+Updated:367	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\proactive_bar.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\proactive_threat_distribution.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:317	 	sav_closedb(&$conn_id); ?>
+Updated:317	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\proactive_threat_distribution.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\reports.php started.
+Line:30	connectnav(&$conn_id);
+Updated:30	connectnav($conn_id);
+Line:763	//sav_closedb(&$conn_id);
+Updated:763	//sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\reports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\reportsconfig.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:325	<? sav_closedb(&$conn_id); ?>
+Updated:325	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\reportsconfig.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_action.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:55	sav_closedb(&$conn_id);
+Updated:55	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_action.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_actionsummary_top10malware.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:150			    sav_closedb(&$conn_id);
+Updated:150			    sav_closedb($conn_id);
+Line:285	<?  sav_closedb(&$conn_id); ?>
+Updated:285	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_actionsummary_top10malware.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_barchart.php started.
+Line:17	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:17	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:87	sav_closedb(&$conn_id);
+Updated:87	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_barchart.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_correlation.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:60	sav_closedb(&$conn_id);
+Updated:60	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_correlation.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_download_application.php started.
+Line:11	connectnav(& $conn_id);
+Updated:11	connectnav($conn_id);
+Line:397		sav_closedb(& $conn_id);
+Updated:397		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_download_application.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_newvirus.php started.
+Line:10	    require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	    require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:65	    sav_closedb(&$conn_id);
+Updated:65	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_newvirus.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_number_infections_on_machines.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:110	sav_closedb(&$conn_id);
+Updated:110	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_number_infections_on_machines.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_number_of_alerts.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:315	sav_closedb(&$conn_id);
+Updated:315	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_number_of_alerts.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_override.php started.
+Line:11	connectnav(& $conn_id);
+Updated:11	connectnav($conn_id);
+Line:408		sav_closedb(& $conn_id);
+Updated:408		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_override.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_piechart.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:75	sav_closedb(&$conn_id);
+Updated:75	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_piechart.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_proactive_threat_detection.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:298	sav_closedb(&$conn_id); ?>
+Updated:298	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_proactive_threat_detection.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_risk_by_detection_method.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_risk_by_detection_method.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_url.php started.
+Line:11	connectnav(& $conn_id);
+Updated:11	connectnav($conn_id);
+Line:396		sav_closedb(& $conn_id);
+Updated:396		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_url.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine.php started.
+Line:11	require("Include/common/connectdb.php");	connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php");	connectnav($conn_id);
+Line:684	<? sav_closedb(&$conn_id); ?>
+Updated:684	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine_by_group.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:210	 	sav_closedb(&$conn_id); ?>
+Updated:210	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine_by_group.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine_by_ps.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:212	 	sav_closedb(&$conn_id); ?>
+Updated:212	 	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_vir_by_machine_by_ps.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_webdomain.php started.
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:432		sav_closedb(& $conn_id);
+Updated:432		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_webdomain.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_weekly_outbreaks.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:233	<?  sav_closedb(&$conn_id); ?>
+Updated:233	<?  sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\rep_weekly_outbreaks.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\rep_yearly.php started.
+Line:7	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:44	sav_closedb(&$conn_id);
+Updated:44	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\rep_yearly.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\response_events.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:362	sav_closedb(&$conn_id); ?>
+Updated:362	sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\response_events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\RiskDetector.php started.
+Line:25			connectnav(&$this->conn_id);
+Updated:25			connectnav($this->conn_id);
+Line:36			sav_closedb(&$this->conn_id);
+Updated:36			sav_closedb($this->conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\RiskDetector.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\risks_by_report.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:125	<? sav_closedb(&$conn_id); ?>
+Updated:125	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\risks_by_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\scheduledreports.php started.
+Line:6	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:6	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:594	sav_closedb(&$conn_id);
+Updated:594	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\scheduledreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\scheduledreport_popup.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\scheduledreport_popup.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\spiderbar.php started.
+Line:11	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\spiderbar.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\sr-save.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:23		sav_closedb(&$conn_id);
+Updated:23		sav_closedb($conn_id);
+Line:128	sav_closedb(&$conn_id);
+Updated:128	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\sr-save.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\srdeletereport.php started.
+Line:7	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:7	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:18		sav_closedb(&$conn_id);
+Updated:18		sav_closedb($conn_id);
+Line:35	sav_closedb(&$conn_id);
+Updated:35	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\srdeletereport.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\status_summary.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:323	<? sav_closedb(&$conn_id); ?>
+Updated:323	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\status_summary.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\switcher.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:82		sav_closedb(&$conn_id);
+Updated:82		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\time_based_frequency.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:64	    sav_closedb(&$conn_id);
+Updated:64	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\time_based_frequency.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\virus_details.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:100	<? sav_closedb(&$conn_id); ?>
+Updated:100	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\reports\virus_details.php finished.
+
+D:\joshua\workspace\share\SAVReporter\reports\weekly_report.php started.
+Line:10	connectnav(&$conn_id);
+Updated:10	connectnav($conn_id);
+Line:2198	  sav_closedb(&$conn_id);
+Updated:2198	  sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\reports\weekly_report.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Resources\ajax.php started.
+Line:12	connectnav(&$conn_id);
+Updated:12	connectnav($conn_id);
+Line:25	<? sav_closedb(&$conn_id);?>
+Updated:25	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Resources\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Resources\hintbox.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:247	<? sav_closedb(&$conn_id); ?>
+Updated:247	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\Resources\hintbox.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Resources\report_saveas.php started.
+Line:12		sav_closedb(&$conn_id);
+Updated:12		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Resources\report_saveas.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\ajax.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:105	<? sav_closedb(&$conn_id);?>
+Updated:105	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\scans\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\export_scans.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:126	sav_closedb(&$conn_id);
+Updated:126	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\export_scans.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\getScanFilterSettings.php started.
+Line:14	connectnav(&$conn_id);
+Updated:14	connectnav($conn_id);
+Line:19		sav_closedb(&$conn_id);
+Updated:19		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\getScanFilterSettings.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scan-switcher.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:68		sav_closedb(&$conn_id);
+Updated:68		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scan-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scandetails.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:332	<? sav_closedb(&$conn_id); ?>
+Updated:332	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\scans\scandetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scanlist.php started.
+Line:14	connectnav(& $conn_id);
+Updated:14	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scanlist.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scanreport1.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:329	  get_scan_filter_settings(START_TIME, &$filScanStartTimeFrom, &$filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Updated:329	  get_scan_filter_settings(START_TIME, $filScanStartTimeFrom, $filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Line:333	sav_closedb(&$conn_id);
+Updated:333	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scanreport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scanreport2.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:179	    get_scan_filter_settings(START_TIME, &$filScanStartTimeFrom, &$filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Updated:179	    get_scan_filter_settings(START_TIME, $filScanStartTimeFrom, $filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Line:181	sav_closedb(&$conn_id);
+Updated:181	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scanreport2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scanreport3.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:202	 get_scan_filter_settings(STOP_TIME, &$filScanStartTimeFrom, &$filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Updated:202	 get_scan_filter_settings(STOP_TIME, $filScanStartTimeFrom, $filScanStartTimeTo, $filDuration, $filMessage1, $filScanned, $filThreats,
+Line:205	sav_closedb(&$conn_id);
+Updated:205	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scanreport3.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scanreports.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:361	sav_closedb(&$conn_id);
+Updated:361	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scanreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-deletefilter.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:45	sav_closedb(&$conn_id);
+Updated:45	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-redirect.php started.
+Line:11		sav_closedb(&$conn_id);
+Updated:11		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-redirect.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:194	sav_closedb(&$conn_id);
+Updated:194	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-setdefaults.php started.
+Line:21		sav_closedb(&$conn_id);
+Updated:21		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-setdefaults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-setfilter.php started.
+Line:10	connectnav(&$conn_id);
+Updated:10	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-setfilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-sqlfilter.php started.
+Line:10		sav_closedb(&$conn_id);
+Updated:10		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-sqlfilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\scans\scans-updatefilter.php started.
+Line:11	require_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:31		sav_closedb(&$conn_id);
+Updated:31		sav_closedb($conn_id);
+Line:149	   sav_closedb(&$conn_id);
+Updated:149	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\scans\scans-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Svastatus\ajax.php started.
+Line:31		connectnav(&$conn_id);
+Updated:31		connectnav($conn_id);
+Line:96				sav_closedb(&$conn_id);
+Updated:96				sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Svastatus\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Svastatus\export_sva.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:157	  sav_closedb(&$conn_id);
+Updated:157	  sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\Svastatus\export_sva.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Svastatus\svadelete.php started.
+Line:8	connectnav(&$delete_sav_conn_id);
+Updated:8	connectnav($delete_sav_conn_id);
+Line:9	connectnav(&$conn_id);
+Updated:9	connectnav($conn_id);
+Line:20		sav_closedb(&$delete_sav_conn_id);
+Updated:20		sav_closedb($delete_sav_conn_id);
+Line:21		sav_closedb(&$conn_id);
+Updated:21		sav_closedb($conn_id);
+Line:65	sav_closedb(&$del_conn_id);
+Updated:65	sav_closedb($del_conn_id);
+D:\joshua\workspace\share\SAVReporter\Svastatus\svadelete.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Svastatus\svadetails.php started.
+Line:182			sav_closedb(&$conn_id);?>
+Updated:182			sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\Svastatus\svadetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Svastatus\svalist.php started.
+Line:32	connectnav(&$conn_id);
+Updated:32	connectnav($conn_id);
+D:\joshua\workspace\share\SAVReporter\Svastatus\svalist.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\agentsystemresults.php started.
+Line:345	sav_closedb(&$conn_id);?>
+Updated:345	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\System\agentsystemresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\ajax.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:117	        $queries->getSystemAdminQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:117	        $queries->getSystemAdminQueries($filSystemType, $filter, $ClientType, $query1,
+Line:118	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:118	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:120	        $queries->getTrafficSystemList6($filSystemType, $filter, $ClientType, &$query1,
+Updated:120	        $queries->getTrafficSystemList6($filSystemType, $filter, $ClientType, $query1,
+Line:121	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:121	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:123	        $queries->getSystemServerQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:123	        $queries->getSystemServerQueries($filSystemType, $filter, $ClientType, $query1,
+Line:124	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:124	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:126	        $queries->getEnforcerSystemQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:126	        $queries->getEnforcerSystemQueries($filSystemType, $filter, $ClientType, $query1,
+Line:127	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:127	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:129	        $queries->getAgentActivityQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:129	        $queries->getAgentActivityQueries($filSystemType, $filter, $ClientType, $query1,
+Line:130	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:130	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:169	<? sav_closedb(&$conn_id);?>
+Updated:169	<? sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\System\ajax.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\enforcersystemresults.php started.
+Line:303	    sav_closedb(&$conn_id);
+Updated:303	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\enforcersystemresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\export_system.php started.
+Line:15	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:15	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:275	sav_closedb(&$conn_id);
+Updated:275	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\export_system.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\response_events.php started.
+Line:11	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:11	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:511		&$query1, &$query2,
+Updated:511		$query1, $query2,
+Line:754	sav_closedb(&$conn_id);
+Updated:754	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\response_events.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\serveradminresults.php started.
+Line:332	    sav_closedb(& $conn_id);
+Updated:332	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\serveradminresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\serverclientresults.php started.
+Line:324	sav_closedb(&$conn_id);?>
+Updated:324	sav_closedb($conn_id);?>
+D:\joshua\workspace\share\SAVReporter\System\serverclientresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\serversystemresults.php started.
+Line:332	    sav_closedb(& $conn_id);
+Updated:332	    sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\serversystemresults.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\SiteStatusReport.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:247		  sav_closedb(&$conn_id);
+Updated:247		  sav_closedb($conn_id);
+Line:767	 	sav_closedb(&$conn_id);
+Updated:767	 	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\SiteStatusReport.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\system-deletefilter.php started.
+Line:9	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:45	sav_closedb(&$conn_id);
+Updated:45	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\system-deletefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\system-savefilter.php started.
+Line:9	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:9	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:29		sav_closedb(&$conn_id);
+Updated:29		sav_closedb($conn_id);
+Line:147	sav_closedb(&$conn_id);
+Updated:147	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\system-savefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\system-switcher.php started.
+Line:12	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:12	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:74		sav_closedb(&$conn_id);
+Updated:74		sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\system-switcher.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\system-updatefilter.php started.
+Line:8	include_once("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	include_once("Include/common/connectdb.php"); connectnav($conn_id);
+Line:28		sav_closedb(&$conn_id);
+Updated:28		sav_closedb($conn_id);
+Line:134	   sav_closedb(&$conn_id);
+Updated:134	   sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\system-updatefilter.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\systemdetails.php started.
+Line:8	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:8	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:891	<? sav_closedb(&$conn_id); ?>
+Updated:891	<? sav_closedb($conn_id); ?>
+D:\joshua\workspace\share\SAVReporter\System\systemdetails.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\systemlogs.php started.
+Line:14	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:14	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:407	        $queries->getSystemAdminQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:407	        $queries->getSystemAdminQueries($filSystemType, $filter, $ClientType, $query1,
+Line:408	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:408	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:420	        $queries->getTrafficSystemList6($filSystemType, $filter, $ClientType, &$query1,
+Updated:420	        $queries->getTrafficSystemList6($filSystemType, $filter, $ClientType, $query1,
+Line:421	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:421	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:432	        $queries->getSystemServerQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:432	        $queries->getSystemServerQueries($filSystemType, $filter, $ClientType, $query1,
+Line:433	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:433	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:444	        $queries->getEnforcerSystemQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:444	        $queries->getEnforcerSystemQueries($filSystemType, $filter, $ClientType, $query1,
+Line:445	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:445	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+Line:456	        $queries->getAgentActivityQueries($filSystemType, $filter, $ClientType, &$query1,
+Updated:456	        $queries->getAgentActivityQueries($filSystemType, $filter, $ClientType, $query1,
+Line:457	        &$query2, &$query3, $limit, $portion, $sortorder, $sortdir, $start);
+Updated:457	        $query2, $query3, $limit, $portion, $sortorder, $sortdir, $start);
+D:\joshua\workspace\share\SAVReporter\System\systemlogs.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\systemreport1.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:43	connectnav(&$conn_id);
+Updated:43	connectnav($conn_id);
+Line:500	sav_closedb(&$conn_id);
+Updated:500	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\systemreport1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\systemreport2.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:46	connectnav(&$conn_id);
+Updated:46	connectnav($conn_id);
+Line:311	<?  sav_closedb(&$conn_id); 
+Updated:311	<?  sav_closedb($conn_id); 
+D:\joshua\workspace\share\SAVReporter\System\systemreport2.php finished.
+
+D:\joshua\workspace\share\SAVReporter\System\systemreports.php started.
+Line:10	require("Include/common/connectdb.php"); connectnav(&$conn_id);
+Updated:10	require("Include/common/connectdb.php"); connectnav($conn_id);
+Line:167	sav_closedb(&$conn_id);
+Updated:167	sav_closedb($conn_id);
+D:\joshua\workspace\share\SAVReporter\System\systemreports.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnit\command\CommandQueriesTest.php started.
+Line:144			$this->object->getMainCommandQuery("", $filter, "", &$actual_query1,&$actual_query2, &$actual_query3, 10, 2, "", "DESC", "", "9876543210");
+Updated:144			$this->object->getMainCommandQuery("", $filter, "", $actual_query1,$actual_query2, $actual_query3, 10, 2, "", "DESC", "", "9876543210");
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnit\command\CommandQueriesTest.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\HTML\Template\IT.php started.
+Line:561	                                    &$this, '_addPregDelimiters'),
+Updated:561	                                    $this, '_addPregDelimiters'),
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\HTML\Template\IT.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\MIME\Type.php started.
+Line:175	     * @param string &$comment Comment is stored in there.
+Updated:175	     * @param string $comment Comment is stored in there.
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\MIME\Type.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\Downloader.php started.
+Line:470	                'info' => &$pf,
+Updated:470	                'info' => $pf,
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\Downloader.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\PackageFile\v1.php started.
+Line:1060	        if (($this->_isValid & $state) == $state) {
+Updated:1060	        if (($this->_isValid $state) == $state) {
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\PackageFile\v1.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\PackageFile\v2\Validator.php started.
+Line:68	        if (($this->_isValid & $state) == $state) {
+Updated:68	        if (($this->_isValid $state) == $state) {
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PEAR\PackageFile\v2\Validator.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PHPUnit\Util\Log\Database.php started.
+Line:504	        foreach ($this->testSuites as &$testSuite) {
+Updated:504	        foreach ($this->testSuites as $testSuite) {
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\PHPUnit\Util\Log\Database.php finished.
+
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\tests\Structures_Graph\tests\testCase\BasicGraph.php started.
+Line:81	        $node->setData(&$data);
+Updated:81	        $node->setData($data);
+Line:94	        $node->setMetadata('5', &$data);
+Updated:94	        $node->setMetadata('5', $data);
+D:\joshua\workspace\share\SAVReporter\Test\PHPUnitDistribution\Version_3_4_8\PEAR\pear\tests\Structures_Graph\tests\testCase\BasicGraph.php finished.
+
+Total changes:643
